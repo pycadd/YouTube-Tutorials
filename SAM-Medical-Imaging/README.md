@@ -1,0 +1,1 @@
+## This example if for how to use `segment-anything` for medical imaging
