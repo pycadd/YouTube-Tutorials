@@ -1,4 +1,5 @@
 # Medical Imaging Data Extraction with SimpleITK
+![Alt text](../assets/pycad.png)
 
 This Python script demonstrates how to extract and handle medical imaging data using the SimpleITK library. SimpleITK is a simplified interface to the Insight Segmentation and Registration Toolkit (ITK), designed to facilitate image analysis tasks in medical imaging. This example covers reading DICOM series, as well as single NIfTI and NRRD files, extracting both the pixel data and relevant metadata such as spacing, origin, and direction.
 

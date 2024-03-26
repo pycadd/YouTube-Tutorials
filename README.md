@@ -1,4 +1,5 @@
 # PYCAD YouTube Series Code Repository
+![alt text](./assets/pycad.png)
 
 Welcome to the official GitHub repository for the PYCAD YouTube channel! This repository serves as a centralized hub where viewers can find the source code for all the tutorials, demonstrations, and educational content featured in our videos. Our goal is to make learning and replicating the projects from our videos as accessible and straightforward as possible.
 
