@@ -19,7 +19,7 @@ app.title('Dicom Simplified')
 width_height_viewer = 600
 
 img = Image.open('./utils/default_pic.jpg')
-img = img.resize((width_height_viewer, width_height_viewer), Image.ANTIALIAS)
+img = img.resize((width_height_viewer, width_height_viewer))
 img_tk = ImageTk.PhotoImage(img)
 
 app_title = ttk.Label(app, text='Dicom Simplified', font='poppins 35 bold')
@@ -54,7 +54,7 @@ def open_dicoms():
 def show(img):
     global tk_image
     normalized_slice = Image.fromarray(img)
-    normalized_slice = normalized_slice.resize((width_height_viewer, width_height_viewer), Image.ANTIALIAS)
+    normalized_slice = normalized_slice.resize((width_height_viewer, width_height_viewer))
     tk_image = ImageTk.PhotoImage(normalized_slice)
     canvas_viewer.create_image(0,0,anchor=NW,image=tk_image)
 
